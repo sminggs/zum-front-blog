@@ -1,0 +1,9 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": [".", "../types/provider.tsx"],
+  "exclude": ["public", "node_modules"]
+}

@@ -1,0 +1,6 @@
+pnpm turbo lint
+
+if [ $? -ne 0 ]; then
+  echo "Turbo Lint 검사에 실패했습니다. 수정 후 다시 시도하세요."
+  exit 1
+fi

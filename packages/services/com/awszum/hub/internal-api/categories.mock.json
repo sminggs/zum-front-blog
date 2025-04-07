@@ -1,0 +1,124 @@
+{
+  "categories": [
+    {
+      "categoryIdx": 10,
+      "name": "홈",
+      "keyName": "home",
+      "state": "ACTIVE",
+      "order": 0,
+      "sideCategoryOrder": [0],
+      "level": 0,
+      "createdAt": "2020-02-10T09:00:00",
+      "updatedAt": "2020-02-10T09:00:00",
+      "updater": "한정수"
+    },
+    {
+      "categoryIdx": 1,
+      "name": "라이프",
+      "keyName": "life",
+      "state": "ACTIVE",
+      "order": 1,
+      "sideCategoryOrder": [1, 7, 8, 3, 6],
+      "level": 0,
+      "createdAt": "2015-06-05T13:16:21",
+      "updatedAt": "2015-06-05T13:16:21",
+      "updater": "오혜성"
+    },
+    {
+      "categoryIdx": 7,
+      "name": "푸드",
+      "keyName": "food",
+      "state": "ACTIVE",
+      "order": 2,
+      "sideCategoryOrder": [7, 3, 6, 1, 9],
+      "level": 0,
+      "createdAt": "2017-08-03T10:00:00",
+      "updatedAt": "2017-08-03T10:00:00",
+      "updater": "김영재"
+    },
+    {
+      "categoryIdx": 3,
+      "name": "여행",
+      "keyName": "trip",
+      "state": "ACTIVE",
+      "order": 3,
+      "sideCategoryOrder": [3, 2, 6, 7, 1],
+      "level": 0,
+      "createdAt": "2015-06-05T13:16:21",
+      "updatedAt": "2015-06-05T13:16:21",
+      "updater": "오혜성"
+    },
+    {
+      "categoryIdx": 2,
+      "name": "컬처",
+      "keyName": "culture",
+      "state": "ACTIVE",
+      "order": 4,
+      "sideCategoryOrder": [2, 3, 9, 4, 8],
+      "level": 0,
+      "createdAt": "2015-06-05T13:16:21",
+      "updatedAt": "2015-06-05T13:16:21",
+      "updater": "오혜성"
+    },
+    {
+      "categoryIdx": 4,
+      "name": "테크",
+      "keyName": "it",
+      "state": "ACTIVE",
+      "order": 5,
+      "sideCategoryOrder": [4, 8, 6, 2, 3],
+      "level": 0,
+      "createdAt": "2015-06-05T13:16:21",
+      "updatedAt": "2015-06-05T13:16:21",
+      "updater": "오혜성"
+    },
+    {
+      "categoryIdx": 8,
+      "name": "자동차",
+      "keyName": "biz",
+      "state": "ACTIVE",
+      "order": 6,
+      "sideCategoryOrder": [8, 6, 9, 4, 2],
+      "level": 0,
+      "createdAt": "2017-08-03T10:00:00",
+      "updatedAt": "2024-04-19T11:13:17",
+      "updater": "kimyoungsun"
+    },
+    {
+      "categoryIdx": 6,
+      "name": "트렌드",
+      "keyName": "issue",
+      "state": "ACTIVE",
+      "order": 7,
+      "sideCategoryOrder": [6, 9, 7, 1, 2],
+      "level": 0,
+      "createdAt": "2017-05-10T16:00:00",
+      "updatedAt": "2024-04-19T11:15:30",
+      "updater": "kimyoungsun"
+    },
+    {
+      "categoryIdx": 9,
+      "name": "핫이슈",
+      "keyName": "entertainment",
+      "state": "ACTIVE",
+      "order": 8,
+      "sideCategoryOrder": [9, 6, 2, 1, 3],
+      "level": 0,
+      "createdAt": "2017-08-03T10:00:00",
+      "updatedAt": "2024-04-19T11:14:32",
+      "updater": "kimyoungsun"
+    },
+    {
+      "categoryIdx": 11,
+      "name": "재테크",
+      "keyName": "invest",
+      "state": "ACTIVE",
+      "order": 9,
+      "sideCategoryOrder": [9, 2, 3, 5, 4],
+      "level": 0,
+      "createdAt": "2023-12-29T10:00:00",
+      "updatedAt": "2024-04-19T11:10:47",
+      "updater": "kimyoungsun"
+    }
+  ]
+}

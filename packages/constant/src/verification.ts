@@ -1,0 +1,5 @@
+export default {
+  NAVER: '44306e8e2e8ce23396a02af45958599db1100de9',
+  GOOGLE: 'oeD9vvN96bzmEEa2OPNxpjhgRTIGxCAW8gOgbfROjLI',
+  FACEBOOK: '1455466434764810',
+} as const;

@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "*.scss": "scss",
+    "*.sass": "sass"
+  },
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "typescript.tsdk": "packages/types/node_modules/typescript/lib"
+}

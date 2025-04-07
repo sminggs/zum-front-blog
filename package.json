@@ -1,0 +1,24 @@
+{
+  "name": "zum-front-blog",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "type-check": "turbo type-check",
+    "clean": "turbo clean",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "@zuminternet/sprite": "^0.0.1",
+    "husky": "^9.1.6",
+    "prettier": "^3.3.3",
+    "turbo": "^2.1.3"
+  },
+  "packageManager": "pnpm@9.12.1",
+  "engines": {
+    "node": ">=18"
+  }
+}
