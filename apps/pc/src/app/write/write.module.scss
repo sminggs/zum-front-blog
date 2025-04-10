@@ -1,42 +1,75 @@
-.writePage {
-  padding: 2rem;
-}
+@use '@zuminternet/design-system/src/styles/zds' as *;
 
-.heading {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 1.5rem;
-}
+.write-page {
 
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.input,
-.textarea {
-  width: 100%;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.textarea {
-  height: 200px;
-  resize: vertical;
-}
-
-.button {
-  align-self: flex-end;
-  padding: 0.75rem 1.5rem;
-  background-color: #007aff;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-
-  &:hover {
-    background-color: #005fcc;
+  &__form {
+    display: flex;
   }
+
+  &__left {
+    width: 50%;
+    padding: 20px;
+  }
+
+  &__right {
+    width: 50%;
+    padding: 20px;
+    @include bg-fill-subtle;
+    height: 100vh;
+  }
+
+  &__input {
+    background: #fff;
+    border: 0;
+    @include display-00-large;
+    @include label-subtle;
+    margin-bottom: 20px;
+
+    &::placeholder {
+    }
+  }
+}
+
+.write-page__editor {
+  min-height: 300px;
+  transition: opacity 0.2s ease;
+
+  &--hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  &--ready {
+    opacity: 1;
+  }
+
+  :global {
+    .ql-editor {
+      font-size: 16px;
+  
+      p {
+        margin: 0 0 1em;
+      }
+  
+      h1 {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    }
+  }
+
+  :global(.ql-toolbar) {
+    background-color: #f0f0f0;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  :global(.ql-toolbar button) {
+    background: white;
+    border: 1px solid #ccc;
+    margin-right: 4px;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
 }

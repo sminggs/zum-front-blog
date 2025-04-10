@@ -1,4 +1,4 @@
-// @todo 변경 필요
+// @todo 허브줌 세팅에서 블로그 세팅으로 변경 필요
 
 import { isQA } from './env';
 

@@ -1,7 +1,7 @@
+// @todo 허브줌 세팅에서 블로그 세팅으로 변경 필요
 import type { NextRequest } from 'next/server';
 import { NextResponse } from 'next/server';
 
-// @todo 변경 필요
 const INTERNAL_NETWORK_URL = 'http://static.hubzum.zumst.com/hubzum';
 const ALLOWED_MIME_TYPES = ['image/jpeg', 'image/png', 'image/gif', 'image/webp'];
 

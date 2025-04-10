@@ -1,3 +1,4 @@
+// @todo 허브줌 세팅에서 블로그 세팅으로 변경 필요
 import type { Metadata } from 'next';
 import { convertNewlinesToSpaces } from './convertNewlinesToSpaces';
 import { MOBILE_HUBZUM_DOMAIN } from '@repo/constant/src/url';

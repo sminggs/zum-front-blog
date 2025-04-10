@@ -1,5 +1,6 @@
 'use client';
 
+// @todo 허브줌 세팅에서 블로그 세팅으로 변경 필요
 import React, { memo, PropsWithChildren, MouseEventHandler, MouseEvent } from 'react';
 import { useESTatClient } from '../hooks/useEstatClient';
 

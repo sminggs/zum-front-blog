@@ -1,3 +1,4 @@
+// @todo 허브줌 세팅에서 블로그 세팅으로 변경 필요
 import { generateRobotsTxt } from '@repo/utils/generate-robots-txt';
 import { GET as getCategories } from '@repo/services/com/awszum/hub/internal-api/categories';
 import { MOBILE_HUBZUM_DOMAIN } from '@repo/constant/src/url';

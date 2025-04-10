@@ -1,4 +1,5 @@
 // @ts-expect-error; library
+// @todo 허브줌 세팅에서 블로그 세팅으로 변경 필요
 import { some } from '@zuminternet/async';
 import { ESTatClient, type ESTatPayload } from '@zuminternet/statistics';
 import { createPuid, getCookie } from './utils';

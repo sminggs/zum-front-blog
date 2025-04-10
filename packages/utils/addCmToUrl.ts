@@ -1,3 +1,4 @@
+// @todo 허브줌 세팅에서 블로그 세팅으로 변경 필요
 import { MOBILE_HUBZUM_DOMAIN } from '@repo/constant/src/url';
 
 export function addCmToUrl(url: string, cm: string, baseUrl?: string): string {

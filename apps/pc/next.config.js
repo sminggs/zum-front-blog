@@ -1,3 +1,4 @@
+// @todo 허브줌 세팅에서 블로그 세팅으로 변경 필요
 const { version } = require('./package.json');
 
 /** @type {import('next').NextConfig} */
@@ -25,4 +26,7 @@ module.exports = {
   env: {
     version,
   },
+  sassOptions: {
+    includePaths: ['node_modules'],
+  }
 };

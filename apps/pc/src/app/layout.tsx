@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import '@repo/ui/styles.css';
+import '@repo/ui/globals.scss';
 import { Providers } from './providers';
 
 export const metadata: Metadata = {
@@ -38,7 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }):
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="mobile-web-app-capable" content="yes" />
       </head>
-      <body id="zds">
+      <body>
         <div>
           <Providers>{children}</Providers>
         </div>
