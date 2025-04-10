@@ -1,3 +1,4 @@
+// @todo 허브줌 세팅에서 블로그 세팅으로 변경 필요
 const isProdApi = process.env.PROD_API === 'enabled';
 const isDev = process.env.NODE_ENV === 'development';
 const isQa = process.env.ZUM_QA === '1';
