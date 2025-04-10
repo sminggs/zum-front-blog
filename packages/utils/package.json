@@ -3,13 +3,13 @@
   "private": "true",
   "sideEffects": false,
   "dependencies": {
+    "@repo/constant": "workspace:*",
     "cheerio": "^1.0.0",
     "dayjs": "^1.11.13",
     "p-map": "^7.0.3",
-    "react-dom": "^18.3.1",
-    "@repo/constant": "workspace:*"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "next": "^14.2.15"
+    "next": "^14.2.26"
   }
 }

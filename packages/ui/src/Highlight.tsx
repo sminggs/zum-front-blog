@@ -26,7 +26,7 @@ interface HighlighterProps {
 export function Highlighter(props: HighlighterProps) {
   const { children, keyword, match } = props;
 
-  const matcher = match || keyword;
+  const matcher = match ?? keyword;
 
   const matched = useMemo(() => {
     function matches(sentence: string, matchTarget: string | RegExp) {
